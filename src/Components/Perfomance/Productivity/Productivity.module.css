@@ -1,0 +1,147 @@
+.productivity {
+  height: 80px;
+  background: #FFFFFF;
+  border-radius: 10px 0px;
+  box-shadow: 0px 0.9px 2px rgba(0, 0, 0, 0.32);
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 1px 0px;
+}
+
+.titleContainer {
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+  padding-top: 10px;
+}
+
+.title {
+  font-family: VTB Group UI;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 14px;
+  line-height: 20px;
+  color: #29313D;
+  margin-left: 16px;
+}
+
+.date {
+  margin-left: 8px;
+  font-family: VTB Group UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+  color: #D6D8DE;
+}
+
+.titleContainer img {
+  position: absolute;
+  right: 16px;
+  top: 10px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.titleYour {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #26A644;
+}
+
+.your {
+  margin-left: 16px;
+}
+
+.countYour {
+  font-style: normal;
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 20px;
+  color: #26A644;
+}
+
+.cluster {
+  margin-left: 25px;
+}
+
+.titleCluster {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #52627A;
+}
+
+.countCluster {
+  font-style: normal;
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 20px;
+  color: #52627A;
+}
+
+.factor {
+  margin-left: 24px;
+  display: -webkit-flex;
+  -webkit-flex-flow: row wrap;
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: flex-start;
+}
+
+.titleFactor {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #29313D;
+  width: 85px;
+}
+
+.countFactor {
+  font-family: VTB Group UI;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 20px;
+  color: #29313D;
+  padding-right: 44px;
+}
+
+@media (max-width: 1920px) {
+  .productivity {
+    width: 493px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .productivity {
+    width: 360px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .productivity {
+    width: 403px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .productivity {
+    width: 323px;
+  }
+}
